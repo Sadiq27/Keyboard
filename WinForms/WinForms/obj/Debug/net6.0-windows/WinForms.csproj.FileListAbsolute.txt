@@ -1,0 +1,17 @@
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\bin\Debug\net6.0-windows\WinForms.exe
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\bin\Debug\net6.0-windows\WinForms.deps.json
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\bin\Debug\net6.0-windows\WinForms.runtimeconfig.json
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\bin\Debug\net6.0-windows\WinForms.dll
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\bin\Debug\net6.0-windows\WinForms.pdb
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.csproj.AssemblyReference.cache
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.Form1.resources
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.csproj.GenerateResource.cache
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.AssemblyInfoInputs.cache
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.AssemblyInfo.cs
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.csproj.CoreCompileInputs.cache
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.dll
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\refint\WinForms.dll
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.pdb
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\WinForms.genruntimeconfig.cache
+C:\Users\samed\OneDrive\Рабочий стол\Keyboard\WinForms\WinForms\obj\Debug\net6.0-windows\ref\WinForms.dll

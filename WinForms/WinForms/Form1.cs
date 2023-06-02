@@ -5,210 +5,66 @@ namespace WinForms
         public Form1()
         {
             InitializeComponent();
-        }
-        private void button_Q_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "Q";
+
+            // Line 1
+            button_Q.Click += button_Click;
+            button_W.Click += button_Click;
+            button_E.Click += button_Click;
+            button_R.Click += button_Click;
+            button_T.Click += button_Click;
+            button_Y.Click += button_Click;
+            button_U.Click += button_Click;
+            button_I.Click += button_Click;
+            button_O.Click += button_Click;
+            button_P.Click += button_Click;
+            button_clear.Click += button_Click;          // Without functionality
+
+            // Line 2
+            button_A.Click += button_Click;
+            button_S.Click += button_Click;
+            button_D.Click += button_Click;
+            button_F.Click += button_Click;
+            button_G.Click += button_Click;
+            button_H.Click += button_Click;
+            button_J.Click += button_Click;
+            button_K.Click += button_Click;
+            button_L.Click += button_Click;
+            button_quotes.Click += button_Click;         //
+            //button_Enter.Click += button_Click;          //
+                                                       
+            // Line 3
+            button_UP1.Click += button_Click;            //
+            button_Z.Click += button_Click;
+            button_X.Click += button_Click;
+            button_C.Click += button_Click;
+            button_V.Click += button_Click;
+            button_B.Click += button_Click;
+            button_N.Click += button_Click;
+            button_M.Click += button_Click;
+            button_comma.Click += button_Click;          //
+            button_dot.Click += button_Click;            //
+            button_question.Click += button_Click; ;     //
+            button_UP2.Click += button_Click;            //
+
+            // Line 4
+            button_symbol.Click += button_Click;         //
+            button_Ctrl.Click += button_Click;           //
+            button_smiley.Click += button_Click;         //
+            button_space.Click += button_Click;          
+            button_left.Click += button_Click;           //
+            button_right.Click += button_Click;          //
+            button_language.Click += button_Click;       //
         }
 
-        private void button_W_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
-            this.TextBox.Text += "W";
-        }
-
-        private void button_E_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "E";
-        }
-
-        private void button_R_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "R";
-        }
-
-        private void button_T_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "T";
-        }
-
-        private void button_Y_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "Y";
-        }
-
-        private void button_U_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "U";
-        }
-
-        private void button_I_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "I";
-        }
-
-        private void button_O_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "O";
-        }
-
-        private void button_P_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "P";
-        }
-
-        private void button_A_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "A";
-        }
-
-        private void button_S_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "S";
-        }
-
-        private void button_D_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "D";
-        }
-
-        private void button_F_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "F";
-        }
-
-        private void button_G_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "G";
-        }
-
-        private void button_H_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "H";
-        }
-
-        private void button_J_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "J";
-        }
-
-        private void button_K_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "K";
-        }
-
-        private void button_L_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "L";
-        }
-
-        private void button_quotes_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "\"";
+            Button clickedButton = (Button)sender;
+            this.TextBox.Text += clickedButton.Text;
         }
 
         private void button_Enter_Click(object sender, EventArgs e)
         {
             this.TextBox.Text += "\n";
-        }
-
-        private void button_Ctrl_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "*CTRL*";
-        }
-
-        private void button_UP1_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "*UP*";
-        }
-
-        private void button_UP2_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "*UP*";
-        }
-
-        private void button_Z_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "Z";
-        }
-
-        private void button_X_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "X";
-        }
-
-        private void button_C_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "C";
-        }
-
-        private void button_V_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "V";
-        }
-
-        private void button_B_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "B";
-        }
-
-        private void button_N_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "N";
-        }
-
-        private void button_M_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "M";
-        }
-
-        private void button_comma_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += ",";
-        }
-
-        private void button_dot_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += ".";
-        }
-
-        private void button_question_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "?";
-        }
-
-        private void button_symbol_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "*symbol*";
-        }
-
-        private void button_smiley_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += ":)";
-        }
-
-        private void button_space_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += " ";
-        }
-
-        private void button_left_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "<";
-        }
-
-        private void button_right_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += ">";
-        }
-
-        private void button_language_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "*language*";
-        }
-
-        private void button_clear_Click(object sender, EventArgs e)
-        {
-            this.TextBox.Text += "";
         }
     }
 }
